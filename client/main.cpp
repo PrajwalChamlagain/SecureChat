@@ -21,7 +21,7 @@ bool Initialize(){
     WSADATA data;
     return WSAStartup(MAKEWORD(2,2),&data) == 0;    
 }
-
+//hello
 void sendMessage(SOCKET s){
     cout<<"enter your name"<<endl;
     string name;
